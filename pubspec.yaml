@@ -1,0 +1,33 @@
+name: aep
+description: Aplicativo de gerenciamento de senhas em Flutter
+
+# Versão do SDK Flutter necessária.
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gerenciamento de estado (opcional)
+  provider: ^6.0.0
+
+  # Requisições HTTP para integração com json-server
+  http: ^0.13.5
+
+  # Pacotes de ícones e fontes padrão
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Configurações de estilo para o projeto.
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Lista de pastas ou arquivos de imagens, fontes, etc. (adicione conforme necessário)
+    # - assets/images/
+    # - assets/fonts/
